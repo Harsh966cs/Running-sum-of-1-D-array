@@ -4,9 +4,9 @@ int sumof1darray(int a[],int n)/*This is a logic of adding the array elment*/
 {
   for(int i=1;i<n;i++)
   {
-    a[i]+=a[i-1];/*add each elment to preayus elment*/
+    a[i]+=a[i-1];/*add each elment to preayus elment */
   }
-  return (a,n);
+  return (a,n)/*for return */;
 }
 
 int main()
